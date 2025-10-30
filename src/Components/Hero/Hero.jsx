@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="relative max-w-max mx-auto pt-8 pl-8 ">
             <motion.span variants={variants.fadeInUp} className="absolute top-0 left-0">
               <img
-                src="../../../public/images/shape-1.png"
+                src="/images/shape-1.png"
                 alt="title shap"
                 width={39}
                 height={43}
@@ -32,7 +32,7 @@ const Hero = () => {
             <motion.div variants={variants.fadeInUp} className="flex items-center justify-center bg-white-99 gap-2.5 border border-white-95 p-3.5 rounded-lg max-w-max text-center flex-wrap mx-auto">
               <span className="">
                 <img
-                  src="../../../public/images/shape-2.png"
+                  src="/images/shape-2.png"
                   alt="title shap"
                   width={48}
                   height={48}
@@ -78,7 +78,7 @@ const Hero = () => {
         {/* Banner */}
         <motion.figure variants={variants.fadeIn} className="relative rounded-xl overflow-hidden mt-10 md:mt-14 lg:mt-[50px] max-w-[920px] w-full h-[500px] mx-auto">
           <img
-            src="../../../public/images/hero-banner.png"
+            src="/images/hero-banner.png"
             alt="hero-banner"
             width={940}
             height={500}
