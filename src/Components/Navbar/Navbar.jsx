@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="">
           <img
-            src="../../../public/images/logo.png"
+            src="/images/logo.png"
             alt="logo"
             width={170}
             height={50}
