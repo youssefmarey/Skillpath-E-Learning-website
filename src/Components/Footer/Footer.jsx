@@ -22,7 +22,7 @@ const Footer = () => {
             {/* Footer Logo */}
             <div>
               <img
-                src="../../../public/images/logo.png"
+                src="/images/logo.png"
                 alt="footer logo"
                 width={150}
                 height={50}
